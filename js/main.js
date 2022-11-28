@@ -14,7 +14,7 @@ let preguntarDeNuevo = true
 
 do{
     let contrasenia = prompt("Ingrese una contraseña con almenos 8 caracteres")
-    while(contrasenia.length < 7){
+    while(contrasenia.length <= 7){
         alert("La contraseña es demasiado corta")
         contrasenia = prompt("Ingrese una contraseña con almenos 8 caracteres")
     }
